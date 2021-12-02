@@ -1,0 +1,85 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body{
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.blacksheet{
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-bottom: 20px;
+  width:65%;
+  height:90%;
+  padding:30px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 6px;
+}
+
+.logolim{
+  width: 150px;
+  margin: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+}
+
+.blacksheet > h1{
+  font: italic bold 20px sans-serif;
+  color: #0cf10c;
+  text-align: center;
+}
+
+.buttons{
+  text-align: center;
+  background-color: #0cf10c;
+  margin: 10px;
+  padding: 10px;
+  border-width: 10px;
+}
+
+.SezioneInfo{
+  margin-left: 10px;
+}
+.SezioneInfo > h3{
+  display: inline-block;
+  color: white;
+  font: bold 15px sans-serif;
+  padding-top: 10px;
+}
+
+.SezioneInfo > p{
+  color: #f9f1f1;
+  font: 13px sans-serif;
+  padding: 3px;
+}
+
+.energybar{
+  background-color: #e4a85e;
+  width: 240px;
+  height: 20px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+.energybar2{
+  background-color: #7ae44e;
+  width: 450px;
+  height: 20px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+.energybar3{
+  background-color: #c22222;
+  width: 100px;
+  height: 20px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
